@@ -1,7 +1,7 @@
 # Getting Started with Create React App
  An interactive quiz application that helped me go deeper into state management and user experience 
 
-##💡 What I focused on in this project:
+## 💡 What I focused on in this project:
 
 • Implementing a timer using useEffect that controls the quiz duration based on the number of questions
 • Building a dynamic progress bar that updates as the user moves through the quiz
@@ -9,7 +9,7 @@
 • Updating the score instantly after answering each question
 • Displaying a high score at the end by comparing the current score with the previous best
 
-##📌 The most interesting part of this project was using useReducer — which was truly the hero here.
+## 📌 The most interesting part of this project was using useReducer — which was truly the hero here.
 
 Instead of managing multiple useState hooks, I used a single reducer to handle different application states and transitions, including:
 
@@ -23,7 +23,7 @@ Instead of managing multiple useState hooks, I used a single reducer to handle d
 
 This approach made the app more scalable, predictable, and easier to manage — especially with multiple states like loading, ready, active, and finished.
 
-##🎯 Key Features:
+## 🎯 Key Features:
 • Interactive quiz flow
 • Real-time score updates
 • Timer-based quiz logic
